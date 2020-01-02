@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #fetching data set
-dataset=pd.read_csv('filename')
-x=pd.iloc[:,:4].values()
-y=pd.iloc[:,4].values()
+dataset=pd.read_csv('filename')  #name of the input file
+x=pd.iloc[:,:4].values() #column numbers of independent variables
+y=pd.iloc[:,4].values() #column numbers of dependent variables
 
 #splitting data
 from sklearn.preprocessing import train_test_split
